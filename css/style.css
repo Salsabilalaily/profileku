@@ -3,11 +3,19 @@ Author: Salsabila Laily Rahma
 Type:CSS
 */
 
+html {
+	scroll-behavior: smooth;
+	}
+	
 body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
 }
+
+#no-body {
+	height: 60px;
+	}
 
 nav {
 	width: 100%;
@@ -15,7 +23,9 @@ nav {
 	padding: 0 16px; /* 16 px = 1 rem */
 	background-color: pink;
 	color: purple;
+	position: fixed;
 	}
+
 	
 nav img {
 	padding-top: 5px
